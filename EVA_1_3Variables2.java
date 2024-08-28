@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package eva_1_variables;
+package EVA_1_3Variables2;
 
 /**
  *
  * @author invitado
  */
-public class EVA_1_Variables {
+public class EVA_1_3Variables2 {
 
     /**
      * @param args the command line arguments
@@ -51,7 +51,6 @@ public class EVA_1_Variables {
     
     String nombre;
     String apellido;
-    String curp;
     double promedio;
 int edad;
 
@@ -68,6 +67,22 @@ int edad;
     System.out.println(apellido);
     System.out.println(promedio);
     
+    //VEHÍCULOS
+    String marca;
+    String modelo; 
+    int year; //la ñ en otros lenguajes no es aceptada
+    double precio;
+    
+    //ASIGNACIÓN
+    marca = "NISSAN"; 
+    modelo = "GTR";
+    year = 2008;
+    precio = 1000000.1; 
+    
+    System.out.println(marca);
+    System.out.println(modelo);
+    System.out.println(year);
+    System.out.println(precio);
 
     }
         }
